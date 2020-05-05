@@ -1,0 +1,68 @@
+.rowsWrapper {
+	white-space: nowrap;
+	display: flex;
+	flex-direction: row;
+}
+
+.rowContainer {
+	width: 98%;
+	margin: auto;
+}
+.rowsWrapper:hover {
+	overflow: scroll;
+}
+
+.row {
+	display: block;
+	margin: 15px;
+	padding: 10px;
+	background: #eff2fc;
+	border-radius: 3px;
+}
+
+.newRowWrapper input::placeholder {
+	color: #90a8be;
+}
+
+.rowHeader {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	margin: 0px;
+}
+
+.rowHeaderInput {
+	background-color: transparent;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+.newCardInput {
+	background-color: transparent;
+	border: 1px #90a8be dashed;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #90a8be;
+	padding: 5px 7px;
+	text-align: center;
+	margin: 0 20px 20px 20px;
+}
+
+.newCardInput::placeholder {
+	color: #90a8be;
+}
+
+.expansionWrapper {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid lightgrey;
+}
+
+.expansionSummaryOverride {
+	height: 5px;
+}

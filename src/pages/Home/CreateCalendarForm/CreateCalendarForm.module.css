@@ -1,0 +1,17 @@
+.createCalendarFormWrapper {
+	margin: 20px;
+	cursor: auto;
+	display: flex;
+}
+
+.createCalendarFormWrapperInput {
+	margin: 5px;
+	flex: 2;
+	border: none;
+	border-radius: 5px;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+.createCalendarFormWrapperButton {
+}

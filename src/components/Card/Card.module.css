@@ -1,0 +1,55 @@
+.cardContainer {
+	margin: 0px 15px 20px 15px;
+	padding: 10px;
+	background: white;
+	border-radius: 5px;
+	opacity: 1;
+	display: inline-block;
+	width: 270px;
+	height: 400px;
+	word-wrap: break-word;
+	border: 1px solid lightgrey;
+}
+
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cardHeaderInput {
+	font-size: 14px;
+	width: 90%;
+	resize: none;
+	border: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.cardAsset {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: #90a8be;
+	cursor: pointer;
+	width: 100%;
+	height: 180px;
+	background-color: transparent;
+	border: 1px #90a8be dashed;
+	border-radius: 5px;
+}
+
+.cardTextWrapper {
+	margin-top: 10px;
+	background-color: #888;
+	height: 30%;
+	width: 100%;
+}
+
+.cardBodyText {
+	font-size: 14px;
+	height: 100%;
+	width: 99%;
+	resize: none;
+	border: none;
+}
