@@ -26,10 +26,10 @@
 }
 
 .toolbarIconContainer:hover {
-	background: #1890ff;
+	background: #42cf68;
 	color: white;
 	transition: all 300ms ease;
-	border: 1px solid #1890ff;
+	border: 1px solid #42cf68;
 }
 
 .buttonDanger {
